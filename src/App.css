@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+
+* {
+  font-family: "Arial", sans-serif;
+  box-sizing: border-box;
+}
+
+.topLine {
+  width: 100%;
+  height: 90px;
+  background: #edb883;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.searchBlock {
+  margin-top: 50px;
+}
+
+.searchLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchButton {
+  cursor: pointer;
+  background-color: white;
+  margin-left: 30px;
+  width: 90px;
+  height: 70px;
+  transition: 1s;
+  border-radius: 50px;
+  border: 0;
+  box-shadow: 0 0 3px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchQueryBlock {
+  margin-top: 10px;
+  max-width: 500px;
+}
+
+.searchButton:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+.noPosts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  width: 200px;
+  margin-top: 100px;
+  user-select: none;
+}
+
+.noPostsText {
+  margin-top: 20px;
+  color: #cecece;
+  width: 250px;
+}
+
+.searchQuery-enter {
+  transform: scale(0);
+}
+
+.searchQuery-enter-active {
+  transform: scale(1);
+  transition: all 500ms ease-in;
+}
+
+.searchQuery-exit {
+  transform: scale(1);
+}
+
+.searchQuery-exit-active {
+  transform: scale(0);
+  transition: all 500ms ease-in;
+}

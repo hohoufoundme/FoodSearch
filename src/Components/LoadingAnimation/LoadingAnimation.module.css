@@ -1,0 +1,15 @@
+.loader {
+  animation: rotate 1s infinite linear;
+  margin-top: 100px;
+  height: 123px;
+  width: 123px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

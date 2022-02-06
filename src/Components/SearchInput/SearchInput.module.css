@@ -1,0 +1,16 @@
+.input {
+  padding-left: 25px;
+  outline: none;
+  font-size: 30px;
+  border-radius: 30px;
+  border: 0;
+  width: 100%;
+  height: 50px;
+  background: white;
+  box-shadow: 0 0 3px black;
+}
+
+.searchImg {
+  position: absolute;
+  width: 20px;
+}

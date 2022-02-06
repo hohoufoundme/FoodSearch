@@ -1,0 +1,22 @@
+.item {
+  display: inline-block;
+  border: 0;
+  padding: 2px 8px;
+  border-radius: 30px;
+  margin-right: 5px;
+  margin-top: 5px;
+  background-color: white;
+  box-shadow: 0 0 3px black;
+}
+
+.item_red {
+  display: inline-block;
+  border: 0;
+  box-shadow: 0 0 3px black;
+  padding: 2px 8px;
+  border-radius: 30px;
+  margin-right: 5px;
+  margin-top: 5px;
+  background: #dddddd;
+  opacity: 0.4;
+}

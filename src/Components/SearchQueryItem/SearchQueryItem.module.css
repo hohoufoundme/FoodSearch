@@ -1,0 +1,23 @@
+.item {
+  display: inline-block;
+  border: 0;
+  box-shadow: 0 0 3px black;
+  padding: 2px 8px;
+  border-radius: 30px;
+  margin-right: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.item:hover {
+  opacity: 0.5;
+}
+
+.closeBtn {
+  padding: 3px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
