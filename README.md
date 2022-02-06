@@ -4,4 +4,3 @@ This web app based on API spoonacular.com/food-api. For making this app i used F
 If the app doesn't work, you will need to replace API key in these files:
 - src/Components/PostItem/PostItem.jsx
 - src/App.js
-- src/Components/PostItem/PostItem.jsx
